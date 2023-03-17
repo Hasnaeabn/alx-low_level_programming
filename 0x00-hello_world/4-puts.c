@@ -3,10 +3,13 @@
 
 /**
  * main -prints " specific message"
- * description : Programming is like building a multilingual puzzle, followed by a new line.
+ * description : Programming is like building a multilingual puzzle,
+ * followed by a new line.
  * prameter puts
- * Return 0
+ * Return: Always (0)
  */
+
+
 int main(void)
 
 {
