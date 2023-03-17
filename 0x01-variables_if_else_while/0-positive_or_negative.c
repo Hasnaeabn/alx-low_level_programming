@@ -4,8 +4,9 @@
 
 /**
   * main - print type of a random number
+  *
   * return: always 0
-  * if positive print is positive
+  * description: if positive print is positive
   * if negative print is negative
   * if equal to 0 print 0
   */
