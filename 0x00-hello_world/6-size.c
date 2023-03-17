@@ -1,8 +1,9 @@
 #include <stdio.h>
 
+
 /**
- *main Size of various type based onthe computer 
- *Return: Always (0)
+ * main -Size of various type based onthe computer
+ * Return:Always (0)
  */
 
 int main(void)
