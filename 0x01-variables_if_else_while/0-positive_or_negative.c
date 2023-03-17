@@ -7,10 +7,6 @@
  * more headers goes there
  * new script
  * for c
- */
-
-
-/*
  * betty style doc for function main goes there
  * main:print type of a random number
  * return: always 0
@@ -32,6 +28,6 @@ int main(void)
 	else if (n > 0)
 		printf("%d is positive\n", n);
 	else
-		printf("%d is zero\n", n);	
+		printf("%d is zero\n", n);
 	return (0);
 }
