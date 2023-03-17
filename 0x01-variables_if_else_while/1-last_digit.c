@@ -13,7 +13,7 @@
  * if the last digit of n is 0: the string and is 0
  * if the last digit of n is less than 6 and not 0:
  * the string and is less than 6 and not 0
- * Return :always (0)
+ * Return: always 0 (success)
  */
 
 int main(void)
@@ -23,13 +23,13 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	lg = n%10;
-	if ( lg > 5)
-		printf ("Last digit of %d is %d and is greater than 5\n", n, lg);
-	else if ( lg == 0)
-		printf ("Last digit of %d is %d and is 0\n", n, lg);
+	lg = n % 10;
+	if (lg > 5)
+		printf("Last digit of %d is %d and is greater than 5\n", n, lg);
+	else if (lg == 0)
+		printf("Last digit of %d is %d and is 0\n", n, lg);
 	else
-		printf ("Last digit of %d is %d and is less than 6 and not 0\n", n, lg);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lg);
 	
 	return (0);
 }
