@@ -10,12 +10,6 @@
   * if equal to 0 print 0
   */
 
-/* more headers goes there
- * new script
- * for c
- * betty style doc for function main goes there
- */
-
 
 int main(void)
 {
