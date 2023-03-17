@@ -5,7 +5,7 @@
 /**
   * main - print type of a random number
   *
-  * return: always 0
+  * Return: always 0(success)
   * description: if positive print is positive
   * if negative print is negative
   * if equal to 0 print 0
