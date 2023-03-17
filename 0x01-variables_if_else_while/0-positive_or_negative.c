@@ -8,7 +8,10 @@
  * new script
  * for c
  * betty style doc for function main goes there
- * main:print type of a random number
+ */
+
+
+ /** main:print type of a random number
  * return: always 0
  * if positive print is positive
  * if negative print is negative
