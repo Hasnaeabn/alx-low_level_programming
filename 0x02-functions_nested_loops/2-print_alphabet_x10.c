@@ -19,7 +19,7 @@ void print_alphabet_x10(void)
 		while (j < 11)
 		{
 		_putchar(i);
-		j+;
+		j++;
 		}
 		i++;
 	}
