@@ -7,7 +7,7 @@
 
 int _abs(int n)
 {
-	r = print_sign(n);
+	int r = print_sign(n);
 
 	if (r == 1 || r == 0)
 	{
