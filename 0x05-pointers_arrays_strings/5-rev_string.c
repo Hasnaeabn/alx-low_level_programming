@@ -28,6 +28,6 @@ void rev_string(char *s)
 		l = s[i];
 		s[i] = *p;
 		*p = l;
-		a--;
+		p--;
 	}
 }
