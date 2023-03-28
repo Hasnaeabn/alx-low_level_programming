@@ -10,10 +10,10 @@
 void puts_half(char *str)
 {
 	int l =0;
-	int j;
 	int n;
+	
 
-	for (; str[j] != '\0'; j++)
+	for (; str[l] != '\0'; l++)
 	{
 		l++;
 	}
@@ -21,6 +21,7 @@ void puts_half(char *str)
 	if (l % 2 != 0)
 	{
 		n = (l - 1)/2;
+		n = n + 1;
 	}
 
 	else 
