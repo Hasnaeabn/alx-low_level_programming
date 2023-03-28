@@ -2,11 +2,11 @@
 
 /**
   * print_rev - Prints a string in reverse
-  * @str: The string to print
+  * @s: The string to print
   *
   * Return: void
   */
-void print_rev(char *str)
+void print_rev(char *s)
 {
 	int i = 0;
 
