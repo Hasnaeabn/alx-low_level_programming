@@ -15,24 +15,26 @@ unsigned int _strspn(char *s, char *accept)
 	for (; *s != '\0'; s++)
 	{
 		found = 0;
-	}
-
-	for (; *accept !='\0'; accept++)
-	{
-		if (*s == *accept)
+		
+		for (; *accept !='\0'; accept++)
 		{
-			found = 1;
+			if (*s == *accept)
+			{
+				found = 1;
+				break;
+			}
+		}
+		
+		if (found == 1)
+		{
+			i++;
+		}
+		
+		else 
+		{
 			break;
 		}
 	}
 
-	if (found = 1)
-	{
-		i++;
-	}
-	else 
-	{
-		break;
-	}
 	return(i);
 }
