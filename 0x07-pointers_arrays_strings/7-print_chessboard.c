@@ -2,7 +2,7 @@
 #include<stdio.h>
 
 /**
- * pritn_chessboard() -function that prints the chessboard
+ * print_chessboard() -function that prints the chessboard
  * @a : the array
  * Return : void
  */
