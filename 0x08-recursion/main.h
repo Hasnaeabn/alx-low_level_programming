@@ -1,2 +1,2 @@
 void _puts_recursion(char *s);
-_putchar(char *s);
+void _putchar(char *s);
