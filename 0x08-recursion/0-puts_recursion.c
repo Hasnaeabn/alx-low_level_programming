@@ -2,8 +2,11 @@
 
 /**
  * description : function that prints a string
- * _puts_recursion():function that prints a string followed by new line
+ *
+ * _puts_recursion()- function that prints a string followed by new line
+ *
  * @s : the input string
+ *
  * Return : void
  */
 
