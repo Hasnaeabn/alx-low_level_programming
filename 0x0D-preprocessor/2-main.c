@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
- * programm to show the file name
- * main - prints the name of the file
- * 
- * Return: void 
+ * main - prints the name of the file.
+ *
+ * Return: void .
  */
 
 int main(void)
