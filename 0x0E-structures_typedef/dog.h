@@ -1,5 +1,9 @@
 /**
- * dog : new struct for dog names age and owner
+ * dog - new struct for dog names age and owner.
+ *
+ * @name: name of dog.
+ * @age: age of dog.
+ * @owner: the owner of the dog.
  */
 
 struct dog
