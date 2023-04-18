@@ -30,6 +30,6 @@ void print_dog(struct dog *d)
 	}
 	else
 	{
-		printf("owner: (nil)");
+		printf("owner: (nil) \n");
 	}
 }
