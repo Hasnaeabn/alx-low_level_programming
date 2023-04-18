@@ -1,4 +1,7 @@
 #include "dog.h"
+#include<stdlib.h>
+#include<stdio.h>
+#include<string.h>
 
 /**
  * program to initialize a function
@@ -12,7 +15,14 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	d->name = name;
+	if (d == NULL)
+	{
+		printf("Error: Invalid pointer to struct dog. \n");
+	}
+	
+	d->name = (char*)malloc(strlen(name) + 1);
+	strcpy(d->name, name);
 	d->age = age;
-	d->owner = owner;
+	d->owner = (char*)malloc(strlen(owner) + 1);
+	strcpy(d->owner, owner);
 }
