@@ -11,7 +11,7 @@ int sum_them_all(const unsigned int n, ...)
 {
 	unsigned int i;
 	int sum = 0;
-	const int* ptr = &n + 1;
+	const unsigned int* ptr = &n + 1;
 	
 	for (i = 0; i < n; i++)
 	{
